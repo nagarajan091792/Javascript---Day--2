@@ -1,0 +1,46 @@
+Window Object
+-------------
+
+1. The window object represents a window in browser.
+2. An object of window is created automatically by the browser.
+3. Window is the object of browser, it is not the object of javascript. 
+      The javascript objects are string, array, date etc.
+
+Window Object syntax:
+---------------------
+     window.propertyname;
+
+Methods of window object
+------------------------
+
+alert()	     - displays the alert box containing message with ok button.
+confirm()    - 	displays the confirm dialog box containing message with ok and cancel button.
+prompt()     - 	displays a dialog box to get input from the user.
+open()	     -opens the new window.
+close()	     -closes the current window.
+setTimeout() -performs action after specified time like calling function, evaluating expressions etc.
+------------------------------------------------------------------------------------------------------
+
+Document Object
+---------------
+
+1. The document object represents the whole html document.
+2. When html document is loaded in the browser, it becomes a document object.
+3. It is the root element that represents the html document.
+4. It has properties and methods. By the help of document object, 
+    we can add dynamic content to our web page.
+
+Document Object syntax:
+-----------------------
+      document.propertyname;
+
+Methods of document object
+--------------------------
+
+write("string")	        - writes the given string on the doucment.
+writeln("string")       - writes the given string on the doucment with newline character at the end.
+getElementById()	- returns the element having the given id value.
+getElementsByName()	-returns all the elements having the given name value.
+getElementsByTagName()	-returns all the elements having the given tag name.
+getElementsByClassName()-returns all the elements having the given class name.
+--------------------------------------------------------------------------------------------------------	
